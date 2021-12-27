@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "name": "@boldreports/aspnet-core-samples",
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp test",
+    "restore": "gulp restore",
+    "publish": "gulp publish",
+    "postinstall": "gulp pre-build && gulp copy-resources"
+  },
+  "devDependencies": {
+    "azure-publish-settings": "^1.1.0",
+    "bootstrap": "4.0.0",
+    "gulp": "3.9.1",
+    "gulp-dotnet-cli": "1.1.0",
+    "jquery": "3.5.1",
+    "kudu-api": "^1.4.1",
+    "popper.js": "1.12.9",
+    "prismjs": "1.15.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "require-dir": "0.3.2",
+    "run-sequence": "^2.2.1",
+    "shelljs": "0.7.0",
+    "typo-js": "1.0.3",
+    "zip-folder": "^1.0.0",
+    "gulp-msbuild": "0.5.5",
+    "xml-js": "1.6.11"
+  },
+  "dependencies": {
+    "codemirror": "5.45.0",
+    "@boldreports/build-tasks": "*",
+    "@boldreports/javascript-reporting-controls": "*"
+  }
+}
